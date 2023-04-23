@@ -11,7 +11,7 @@ const data = {
       description: "5/5.5/6",
       price: 115,
       img:
-        "/shoe 1.png"
+        "../../public/shoe 1.png"
     },
     {
       quantity: 2,
@@ -20,7 +20,7 @@ const data = {
       description: "4.5/5/6",
       price: 150,
       img:
-        "/shoe 2.png"
+        "../../public/shoe 2.png"
     },
     {
       quantity: 3,
@@ -29,7 +29,7 @@ const data = {
       description: "Unique Size",
       price: 35,
       img:
-        "/hat 3.png"
+        "../../public/hat 3.png"
     },
     {
       quantity: 4,
@@ -38,7 +38,7 @@ const data = {
       description: "3/3.5/4.5/5",
       price: 115,
       img:
-        "/shoe 4.png"
+        "../../public/shoe 4.png"
     }
   ]
 };
