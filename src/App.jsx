@@ -1,10 +1,9 @@
 import { useState } from 'react'
 import './App.css'
-import pic1 from "public/shoe 1.png"
-import pic2 from "public/shoe 2.png"
-import pic3 from "public/hat 3.png"
-import pic4 from "public/shoe 4.png"
-
+import "/shoe 1.png"
+import "/shoe 2.png"
+import "/hat 3.png"
+import "/shoe 4.png"
 
 const data = {
   subTotal: 280,
@@ -15,7 +14,7 @@ const data = {
       title: "Nike ACG Moc 3.5",
       description: "5/5.5/6",
       price: 115,
-      img: {pic1}
+      img: "/shoe 1.png"
     },
     {
       quantity: 2,
@@ -23,7 +22,7 @@ const data = {
       title: 'Jordan Nu Retro 1 "Fresh Ink"',
       description: "4.5/5/6",
       price: 150,
-      img: {pic2}
+      img: "/shoe 2.png"
     },
     {
       quantity: 3,
@@ -31,7 +30,7 @@ const data = {
       title: "Jordan",
       description: "Unique Size",
       price: 35,
-      img: {pic3}
+      img: "/hat 3.png"
     },
     {
       quantity: 4,
@@ -39,7 +38,7 @@ const data = {
       title: "KD Trey 5 X",
       description: "3/3.5/4.5/5",
       price: 115,
-      img: {pic4}
+      img: "/shoe 4.png"
     }
   ]
 };
