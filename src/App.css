@@ -1,0 +1,118 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+*{
+  margin: 0;
+}
+hr{
+  opacity: .1;
+}
+/* ------------- STYLES ------------- */
+
+.shopping-cart {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+.product-body{
+  width: 800px;
+  margin-right: 240px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  height: 170px;
+  margin: 0;
+}
+.row img{
+  object-fit: contain;
+  height: 200px;
+}
+
+.title{
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.title span{
+  width: 250px;
+}
+.btnQuitar{
+  width: 100px;
+}
+.precioUnitario{
+  width: 250px;
+  text-align: center;
+}
+.cantidad{
+  width: 100px;
+}
+.cantidad input{
+  width: 60px;
+  text-align: left;
+}
+.precioTotal{
+  width: 250px;
+}
+.subtotal{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  height: 100px;
+  width: 200px;
+  position: absolute;
+  right: 0px;
+}
+
